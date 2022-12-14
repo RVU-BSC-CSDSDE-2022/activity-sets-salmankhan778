@@ -18,4 +18,4 @@ int compare(int a, int b, int c){
   else if(c>a && c>b){
     printf("c is the largest.");
 }
-}
+}gcc

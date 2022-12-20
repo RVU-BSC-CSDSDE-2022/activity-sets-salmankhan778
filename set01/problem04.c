@@ -1,21 +1,29 @@
 #include <stdio.h>
-input input();
-void add (int a, int b, int *int sum);
-void (int a, int b, int sum);
-int input(){
-  int n;
-  printf("enter the number:\n");
-  scanf("%d",&n);
-  retrun n;
-  }
-void add(int a, int b, int *sum){
-  *sum a+b;
+int input();
+int add(int a, int b);
+void output(int a,int b, int sum);
+int main()
+{
+  int a, b,sum;
+  printf("enters the two numbwers:");
+    a = intput();
+    b = input();
+  sum = add(a,b);
+  output(a,b,sum);
 }
-void output(int a, int b, int sum{
-printf("thre sum of %d and %d id %d" ,a,b, sum)
+int input()
+{ 
+  int a;
+  scanf("%d",&a);
+  return a;
 }
-int main(){
-  int a,b,sum;
-  a=input();
-  b=iput();
-  c
+int add(int a,int b)
+{
+  int sum;
+  sum a + b;
+    return sum;
+}
+void output(int a, int b, int sum )
+{
+  printf("the sum of %d and %d is %\n",a,b,sum);
+}

@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main() {
-  printf("salman")
-return 0;
+#include <stdio.h>
+int main void()
+{
+printf("myself salman");
+  return 0;
 }

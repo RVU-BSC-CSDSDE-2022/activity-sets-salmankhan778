@@ -5,22 +5,19 @@ void output(int a, int b, int sum);
 
 int input()
 {
-  int n;
-  printf("enter a number");
-  scanf("%d",&n);
-  return n;
+int n;
+printf("enter the numbers");
+scanf("%d",&n);
+return n;
 }
-
 void add(int a, int b, int *sum)
 {
   *sum=a+b;
 }
-
 void output(int a, int b, int sum)
 {
-  printf("The sum of %d and %d is %d",a,b,sum);
+ printf("the sum of the %d and %d is %d,",a,b,sum);
 }
-
 int main()
 {
   int a,b,sum;
@@ -30,4 +27,3 @@ int main()
   output(a,b,sum);
   return 0;
 }
-

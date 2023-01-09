@@ -29,19 +29,23 @@ int compare(int a, int b, int c){
   else {
     printf("invalid input");
   }
-}
-void output(int a, int b, int c, int largest){
-  if (largest == a){
+void output(int a, int b, int c, int largest)
+{
+  if (largest == a)
+  }
+{
+ printf("The largest of %d, %d and %d is %d\n", a, b, c, largest);
+  }
+  else if(largest == b)
+  {
     printf("The largest of %d, %d and %d is %d\n", a, b, c, largest);
   }
-  else if(largest == b){
-    printf("The largest of %d, %d and %d is %d\n", a, b, c, largest);
-  }
-  else if (largest == c){
+  
+  else if (largest == c)
+  {
     printf("The largest of %d, %d and %d is %d\n", a, b, c, largest);
   }
  else
   {
     printf("sorry, wrong input try again.\n");
-    }
-}
+    }

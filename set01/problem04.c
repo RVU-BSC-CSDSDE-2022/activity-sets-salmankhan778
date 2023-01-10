@@ -5,10 +5,10 @@ void output(int a, int b, int sum);
 
 int input()
 {
-int n;
-printf("enter the numbers");
-scanf("%d",&n);
-return n;
+  int n;
+  printf("enter the number");
+  scanf("%d",&n);
+  return n;
 }
 void add(int a, int b, int *sum)
 {
@@ -16,13 +16,13 @@ void add(int a, int b, int *sum)
 }
 void output(int a, int b, int sum)
 {
- printf("the sum of the %d and %d is %d,",a,b,sum);
+  printf("addition of the two numbers %d and %d is %d,\n",a,b,sum);
 }
-int main()
+  int main ()
 {
   int a,b,sum;
-  a=input();
-  b=input();
+  a= input();
+  b= input();
   add(a,b,&sum);
   output(a,b,sum);
   return 0;

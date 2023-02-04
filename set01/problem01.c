@@ -2,6 +2,6 @@
 int main()
 {
   int input();
-  printf("my slef salman");
+  printf("my self salman");
   return 0;
 }

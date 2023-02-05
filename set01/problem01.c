@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int input();
+  int input;
   printf("my self salman");
   return 0;
 }

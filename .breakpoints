@@ -1,10 +1,26 @@
 {
   "files": {
+    "set01/problem08.c": [
+      {
+        "id": "5148b4a4-597c-4cec-896a-9a48365520e3",
+        "line": 47,
+        "version": 1,
+        "index": 656
+      }
+    ],
+    "set01/problem09.c": [
+      {
+        "id": "8eca76cc-d2bf-4ac0-9d49-ba8e800ca8cb",
+        "line": 22,
+        "version": 23,
+        "index": 302
+      }
+    ],
     "set02/problem01.c": [
       {
         "id": "318ecb4d-5c70-4a88-9262-24b2fcd8d04a",
         "line": 13,
-        "version": 68,
+        "version": 70,
         "index": 359
       }
     ]
